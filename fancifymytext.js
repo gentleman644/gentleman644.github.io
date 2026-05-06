@@ -4,6 +4,7 @@ const borButton = document.getElementById("boring")
 const fancyButton = document.getElementById("fancy")
 const mooButton = document.getElementById("moo")
 
+
 bigButton.onclick = test;
 borButton.onclick = normalText;
 fancyButton.onclick = styleText;
@@ -12,7 +13,6 @@ mooButton.onclick = mooCase;
 function test(){
     text.style.fontSize = "24pt";
 }
-
 function normalText(){
     text.style.fontWeight = "normal";
     text.style.color = "black";
