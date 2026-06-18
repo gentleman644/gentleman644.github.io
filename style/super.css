@@ -1,0 +1,68 @@
+body{
+  background-color: bisque;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header, footer {
+  background-color: #202020;
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  width: 100%;
+  height: 55px;
+}
+
+footer > *{
+  color: aquamarine;
+  margin: 15px;
+}
+
+section{
+  background-color:aliceblue;
+  padding: 0px 10px;
+  width: 80%;
+}
+
+section > *{
+  margin: 0;
+}
+
+.posts > *{
+  margin: 10px 0px;
+  width: 50%;
+}
+
+.about_me{
+  margin: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 420px;
+}
+
+img{
+  max-width: 100%;
+  height: 250px;
+}
+
+.contact{
+  margin: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 420px;
+}
+
+.linked_in{
+  color: #4d4c4c;
+}
+
+.linked_in:hover{
+  color:rgb(0, 0, 0)
+}
