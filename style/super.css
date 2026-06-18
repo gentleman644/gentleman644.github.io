@@ -37,7 +37,7 @@ section > *{
 }
 
 .about_me{
-  margin: 0px 25px;
+  margin: 10px 25px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -50,7 +50,7 @@ img{
 }
 
 .contact{
-  margin: 0px 25px;
+  margin: 10px 25px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
